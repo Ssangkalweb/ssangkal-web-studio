@@ -1,0 +1,22 @@
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 편집기 설정 및 임시 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로컬 환경 설정과 로그
+.env
+.env.*
+!.env.example
+*.log
+
+# 의존성 및 빌드 결과물(추후 도구 도입 대비)
+node_modules/
+dist/
+coverage/
