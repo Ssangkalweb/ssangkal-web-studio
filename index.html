@@ -3,105 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="아이디어를 믿음직한 웹사이트로 만드는 쌍칼 웹 스튜디오입니다.">
-  <title>쌍칼 웹 스튜디오</title>
+  <meta name="description" content="쌍칼 웹 스튜디오는 기획부터 반응형 제작, 운영 개선까지 비즈니스에 필요한 홈페이지를 전문적으로 제작합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="쌍칼 웹 스튜디오">
+  <meta property="og:title" content="쌍칼 웹 스튜디오 | 비즈니스를 위한 홈페이지 제작">
+  <meta property="og:description" content="기획부터 반응형 제작, 운영 개선까지. 고객이 이해하고 행동하는 홈페이지를 만듭니다.">
+  <title>쌍칼 웹 스튜디오 | 비즈니스를 위한 홈페이지 제작</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">본문으로 바로가기</a>
+
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="#home" aria-label="쌍칼 웹 스튜디오 홈">
-        <span class="logo-mark" aria-hidden="true">쌍</span>
+      <a class="logo" href="#home" aria-label="쌍칼 웹 스튜디오 홈으로 이동">
+        <span class="logo-mark" aria-hidden="true">SK</span>
         <span>쌍칼 웹 스튜디오</span>
       </a>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
         <span class="sr-only">메뉴 열기</span>
-        <span></span><span></span><span></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </button>
 
       <nav id="main-menu" class="main-nav" aria-label="주요 메뉴">
         <a href="#home">홈</a>
         <a href="#about">소개</a>
         <a href="#services">서비스</a>
-        <a class="nav-contact" href="#contact">문의하기</a>
+        <a class="nav-contact" href="#contact">제작 문의</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section id="home" class="hero">
+  <main id="main-content">
+    <section id="home" class="hero" aria-labelledby="hero-title">
       <div class="container hero-content">
-        <p class="eyebrow">신뢰를 만드는 웹 파트너</p>
-        <h1>좋은 아이디어를<br><span>선명한 웹사이트</span>로.</h1>
+        <p class="eyebrow">BUSINESS WEBSITE STUDIO</p>
+        <h1 id="hero-title">고객을 설득하는<br><span>비즈니스 홈페이지 제작</span></h1>
         <p class="hero-description">
-          쌍칼 웹 스튜디오는 보기 좋고 사용하기 쉬운 홈페이지를 만듭니다.
-          기획부터 제작, 관리까지 꼭 필요한 과정을 함께합니다.
+          쌍칼 웹 스튜디오는 회사와 서비스의 강점을 빠르게 이해시키고,
+          방문자의 문의와 행동으로 이어지는 반응형 홈페이지를 만듭니다.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#contact">프로젝트 문의하기</a>
-          <a class="button button-secondary" href="#services">서비스 살펴보기</a>
+          <a class="button button-primary" href="#contact">홈페이지 제작 문의</a>
+          <a class="button button-secondary" href="#services">제작 서비스 확인</a>
         </div>
       </div>
       <div class="hero-decoration" aria-hidden="true"></div>
     </section>
 
-    <section id="about" class="intro section">
+    <section id="about" class="intro section" aria-labelledby="about-title">
       <div class="container intro-grid">
         <div>
           <p class="section-label">ABOUT US</p>
-          <h2>복잡함은 덜고,<br>핵심은 더 또렷하게</h2>
+          <h2 id="about-title">복잡한 이야기는 쉽게,<br>비즈니스의 강점은 선명하게</h2>
         </div>
         <p class="intro-text">
-          고객의 이야기를 먼저 듣고 목적에 맞는 화면을 설계합니다.
-          유행만 좇기보다 오래 사용해도 편안한 디자인과 탄탄한 기본기를 중요하게 생각합니다.
+          고객의 사업과 목표를 먼저 이해한 뒤 꼭 필요한 정보만 명확하게 정리합니다.
+          보기 좋은 화면을 넘어 신뢰를 주고, 문의하기 쉬우며, 오래 사용할 수 있는 홈페이지를 제작합니다.
         </p>
       </div>
     </section>
 
-    <section id="services" class="services section">
+    <section id="services" class="services section" aria-labelledby="services-title">
       <div class="container">
         <div class="section-heading">
           <div>
             <p class="section-label">OUR SERVICES</p>
-            <h2>필요한 서비스를 한곳에서</h2>
+            <h2 id="services-title">홈페이지 제작에 필요한 핵심 서비스</h2>
           </div>
-          <p>작은 시작부터 든든한 성장까지 함께합니다.</p>
+          <p>처음 기획하는 단계부터 공개 이후의 개선까지 함께합니다.</p>
         </div>
 
         <div class="card-grid">
           <article class="service-card">
-            <span class="card-number">01</span>
-            <div class="card-icon" aria-hidden="true">✦</div>
-            <h3>웹사이트 기획</h3>
-            <p>목표와 방문자를 분석해 꼭 필요한 메뉴와 콘텐츠 흐름을 설계합니다.</p>
+            <span class="card-number" aria-hidden="true">01</span>
+            <div class="card-icon" aria-hidden="true">기획</div>
+            <h3>구조·콘텐츠 기획</h3>
+            <p>사업 목표와 고객을 분석해 메뉴 구조, 핵심 메시지, 화면별 콘텐츠 순서를 설계합니다.</p>
           </article>
 
           <article class="service-card featured">
-            <span class="card-number">02</span>
-            <div class="card-icon" aria-hidden="true">◇</div>
-            <h3>반응형 웹 제작</h3>
-            <p>PC, 태블릿, 휴대전화 어디서나 편안하게 보이는 화면을 만듭니다.</p>
+            <span class="card-number" aria-hidden="true">02</span>
+            <div class="card-icon" aria-hidden="true">제작</div>
+            <h3>반응형 홈페이지 제작</h3>
+            <p>PC, 태블릿, 모바일 어디서나 안정적으로 보이고 빠르게 작동하는 홈페이지를 제작합니다.</p>
           </article>
 
           <article class="service-card">
-            <span class="card-number">03</span>
-            <div class="card-icon" aria-hidden="true">↗</div>
-            <h3>운영 및 개선</h3>
-            <p>사이트 공개 후에도 콘텐츠 수정과 사용성 개선을 꾸준히 돕습니다.</p>
+            <span class="card-number" aria-hidden="true">03</span>
+            <div class="card-icon" aria-hidden="true">개선</div>
+            <h3>공개 전 점검·운영 개선</h3>
+            <p>접근성, 검색 노출, 속도, 사용 흐름을 점검하고 공개 이후 필요한 콘텐츠 개선을 지원합니다.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section" aria-labelledby="contact-title">
       <div class="container contact-box">
         <div>
           <p class="section-label light">START A PROJECT</p>
-          <h2>함께 만들 준비가 되셨나요?</h2>
-          <p>원하는 홈페이지와 일정에 대해 편하게 알려주세요.</p>
+          <h2 id="contact-title">홈페이지 제작을 시작해 볼까요?</h2>
+          <p>필요한 페이지와 원하는 공개 일정을 정리해 아래 연락처로 문의해 주세요.</p>
         </div>
-        <a class="button button-light" href="mailto:hello@ssangkal-studio.example">문의 메일 보내기</a>
+        <div class="contact-details" aria-label="문의 연락처">
+          <span class="contact-label">이메일</span>
+          <strong><a href="mailto:hello@ssangkal-studio.example">hello@ssangkal-studio.example</a></strong>
+          <small>이 사이트는 문의 내용을 직접 수집하거나 저장하지 않습니다.</small>
+        </div>
       </div>
     </section>
   </main>
