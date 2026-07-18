@@ -33,6 +33,7 @@
         <a href="#home">홈</a>
         <a href="#about">소개</a>
         <a href="#services">서비스</a>
+        <a href="#portfolio">작업 사례</a>
         <a class="nav-contact" href="#contact">제작 문의</a>
         <button class="theme-toggle" type="button" aria-label="다크 모드로 전환">
           <span class="theme-icon" aria-hidden="true"></span>
@@ -42,11 +43,11 @@
     </div>
   </header>
 
-  <main id="main-content">
+  <main id="main-content" tabindex="-1">
     <section id="home" class="hero" aria-labelledby="hero-title">
       <div class="container hero-content">
         <p class="eyebrow">BUSINESS WEBSITE STUDIO</p>
-        <h1 id="hero-title">고객을 설득하는<br><span>비즈니스 홈페이지 제작</span></h1>
+        <h1 id="hero-title">고객을 설득하는 <span>비즈니스 홈페이지 제작</span></h1>
         <p class="hero-description">
           쌍칼 웹 스튜디오는 회사와 서비스의 강점을 빠르게 이해시키고,
           방문자의 문의와 행동으로 이어지는 반응형 홈페이지를 만듭니다.
@@ -63,7 +64,7 @@
       <div class="container intro-grid">
         <div>
           <p class="section-label">ABOUT US</p>
-          <h2 id="about-title">복잡한 이야기는 쉽게,<br>비즈니스의 강점은 선명하게</h2>
+          <h2 id="about-title">복잡한 이야기는 쉽게, 비즈니스의 강점은 선명하게</h2>
         </div>
         <p class="intro-text">
           고객의 사업과 목표를 먼저 이해한 뒤 꼭 필요한 정보만 명확하게 정리합니다.
@@ -102,6 +103,103 @@
             <div class="card-icon" aria-hidden="true">개선</div>
             <h3>공개 전 점검·운영 개선</h3>
             <p>접근성, 검색 노출, 속도, 사용 흐름을 점검하고 공개 이후 필요한 콘텐츠 개선을 지원합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">SAMPLE PORTFOLIO</p>
+            <h2 id="portfolio-title">업종에 맞춘 홈페이지 설계</h2>
+          </div>
+          <p>서로 다른 업종과 방문 목적을 가정해 정보 구조와 문의 동선을 설계한 연습용 샘플입니다.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card" aria-labelledby="portfolio-logistics-title">
+            <div class="site-preview preview-logistics" aria-hidden="true">
+              <span class="preview-bar"></span>
+              <span class="preview-heading"></span>
+              <span class="preview-copy"></span>
+              <span class="preview-button"></span>
+              <span class="preview-panel"></span>
+            </div>
+            <div class="portfolio-content">
+              <p class="sample-badge">연습용 샘플</p>
+              <h3 id="portfolio-logistics-title">운송·물류 기업 랜딩페이지</h3>
+              <dl class="portfolio-details">
+                <div>
+                  <dt>고객 요구</dt>
+                  <dd>전문성과 신뢰감을 빠르게 전달</dd>
+                </div>
+                <div>
+                  <dt>해결 방식</dt>
+                  <dd>핵심 서비스, 운송 범위, 상담 동선을 한 화면에 구성</dd>
+                </div>
+              </dl>
+              <ul class="tech-tags" aria-label="사용 기술">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="portfolio-card" aria-labelledby="portfolio-content-title">
+            <div class="site-preview preview-content" aria-hidden="true">
+              <span class="preview-bar"></span>
+              <span class="preview-heading"></span>
+              <span class="preview-copy"></span>
+              <span class="preview-tile preview-tile-one"></span>
+              <span class="preview-tile preview-tile-two"></span>
+              <span class="preview-tile preview-tile-three"></span>
+            </div>
+            <div class="portfolio-content">
+              <p class="sample-badge">연습용 샘플</p>
+              <h3 id="portfolio-content-title">지식 콘텐츠 브랜드 페이지</h3>
+              <dl class="portfolio-details">
+                <div>
+                  <dt>고객 요구</dt>
+                  <dd>여러 콘텐츠 시리즈를 쉽게 탐색</dd>
+                </div>
+                <div>
+                  <dt>해결 방식</dt>
+                  <dd>콘텐츠 카테고리와 주요 시리즈 중심으로 정보 구조 설계</dd>
+                </div>
+              </dl>
+              <ul class="tech-tags" aria-label="사용 기술">
+                <li>HTML</li><li>CSS</li><li>Responsive UI</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="portfolio-card" aria-labelledby="portfolio-small-business-title">
+            <div class="site-preview preview-contact" aria-hidden="true">
+              <span class="preview-bar"></span>
+              <span class="preview-phone">
+                <span class="preview-heading"></span>
+                <span class="preview-copy"></span>
+                <span class="preview-button"></span>
+              </span>
+            </div>
+            <div class="portfolio-content">
+              <p class="sample-badge">연습용 샘플</p>
+              <h3 id="portfolio-small-business-title">소상공인 문의형 홈페이지</h3>
+              <dl class="portfolio-details">
+                <div>
+                  <dt>고객 요구</dt>
+                  <dd>모바일 방문자의 빠른 문의 유도</dd>
+                </div>
+                <div>
+                  <dt>해결 방식</dt>
+                  <dd>짧은 소개, 핵심 서비스, 명확한 문의 버튼으로 동선 단순화</dd>
+                </div>
+              </dl>
+              <ul class="tech-tags" aria-label="사용 기술">
+                <li>HTML</li><li>CSS</li><li>Accessibility</li>
+              </ul>
+            </div>
           </article>
         </div>
       </div>
