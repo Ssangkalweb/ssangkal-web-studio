@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="아이디어를 믿음직한 웹사이트로 만드는 쌍칼 웹 스튜디오입니다.">
+  <title>쌍칼 웹 스튜디오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="쌍칼 웹 스튜디오 홈">
+        <span class="logo-mark" aria-hidden="true">쌍</span>
+        <span>쌍칼 웹 스튜디오</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+        <span class="sr-only">메뉴 열기</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-menu" class="main-nav" aria-label="주요 메뉴">
+        <a href="#home">홈</a>
+        <a href="#about">소개</a>
+        <a href="#services">서비스</a>
+        <a class="nav-contact" href="#contact">문의하기</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">신뢰를 만드는 웹 파트너</p>
+        <h1>좋은 아이디어를<br><span>선명한 웹사이트</span>로.</h1>
+        <p class="hero-description">
+          쌍칼 웹 스튜디오는 보기 좋고 사용하기 쉬운 홈페이지를 만듭니다.
+          기획부터 제작, 관리까지 꼭 필요한 과정을 함께합니다.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">프로젝트 문의하기</a>
+          <a class="button button-secondary" href="#services">서비스 살펴보기</a>
+        </div>
+      </div>
+      <div class="hero-decoration" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="intro section">
+      <div class="container intro-grid">
+        <div>
+          <p class="section-label">ABOUT US</p>
+          <h2>복잡함은 덜고,<br>핵심은 더 또렷하게</h2>
+        </div>
+        <p class="intro-text">
+          고객의 이야기를 먼저 듣고 목적에 맞는 화면을 설계합니다.
+          유행만 좇기보다 오래 사용해도 편안한 디자인과 탄탄한 기본기를 중요하게 생각합니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">OUR SERVICES</p>
+            <h2>필요한 서비스를 한곳에서</h2>
+          </div>
+          <p>작은 시작부터 든든한 성장까지 함께합니다.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="service-card">
+            <span class="card-number">01</span>
+            <div class="card-icon" aria-hidden="true">✦</div>
+            <h3>웹사이트 기획</h3>
+            <p>목표와 방문자를 분석해 꼭 필요한 메뉴와 콘텐츠 흐름을 설계합니다.</p>
+          </article>
+
+          <article class="service-card featured">
+            <span class="card-number">02</span>
+            <div class="card-icon" aria-hidden="true">◇</div>
+            <h3>반응형 웹 제작</h3>
+            <p>PC, 태블릿, 휴대전화 어디서나 편안하게 보이는 화면을 만듭니다.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="card-number">03</span>
+            <div class="card-icon" aria-hidden="true">↗</div>
+            <h3>운영 및 개선</h3>
+            <p>사이트 공개 후에도 콘텐츠 수정과 사용성 개선을 꾸준히 돕습니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label light">START A PROJECT</p>
+          <h2>함께 만들 준비가 되셨나요?</h2>
+          <p>원하는 홈페이지와 일정에 대해 편하게 알려주세요.</p>
+        </div>
+        <a class="button button-light" href="mailto:hello@ssangkal-studio.example">문의 메일 보내기</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>쌍칼 웹 스튜디오</strong></p>
+      <p>© <span id="current-year"></span> Ssangkal Web Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
