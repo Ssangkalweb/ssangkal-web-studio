@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">쌍칼 웹 스튜디오 SK 아이콘</title>
+  <rect width="64" height="64" rx="14" fill="#071a35"/>
+  <path d="M8 50 50 8h6v9L23 50Z" fill="#2f6fed"/>
+  <text x="32" y="41" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">SK</text>
+</svg>
