@@ -185,10 +185,15 @@ h2 { margin: 0; color: var(--navy); font-size: clamp(34px, 4vw, 48px); line-heig
 .section-label.light { color: #8db4ff; }
 .contact h2 { color: var(--white); font-size: clamp(30px, 4vw, 42px); }
 .contact p:not(.section-label) { margin: 12px 0 0; color: #bdc9da; }
-.contact-details { flex: 0 0 min(360px, 42%); padding: 22px 24px; color: var(--navy); background: var(--white); border-radius: 12px; }
+.contact-checklist { display: grid; gap: 8px; margin: 24px 0 0; padding: 0; color: #dce5f2; list-style: none; }
+.contact-checklist li { position: relative; padding-left: 24px; }
+.contact-checklist li::before { content: ""; position: absolute; top: .7em; left: 2px; width: 8px; height: 4px; border-bottom: 2px solid #8db4ff; border-left: 2px solid #8db4ff; transform: rotate(-45deg); }
+.contact-details { flex: 0 0 min(360px, 42%); padding: 22px 24px; color: var(--navy); background: var(--white); border-radius: 12px; font-style: normal; }
 .contact-label { display: block; margin-bottom: 4px; color: var(--blue); font-size: 12px; font-weight: 800; letter-spacing: .1em; }
 .contact-details strong { display: block; overflow-wrap: anywhere; }
 .contact-details a { color: inherit; }
+.contact-details .contact-action { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; margin-top: 18px; padding: 9px 16px; color: #ffffff; background: #2f6fed; border-radius: 8px; font-weight: 700; }
+.contact-action:hover { background: #245fda; }
 .contact-details small { display: block; margin-top: 9px; color: var(--muted); line-height: 1.5; }
 
 .site-footer { padding: 30px 0 38px; }
@@ -245,6 +250,7 @@ html[data-theme="dark"] .sample-badge { color: #c9dcff; background: #19335d; bor
   .button { width: 100%; }
   .service-card { padding: 30px; }
   .contact-box { padding: 38px 25px; }
+  .contact-action { width: 100%; }
   .footer-inner { flex-direction: column; gap: 7px; }
 }
 
