@@ -37,6 +37,10 @@ python -m http.server 8000
 
 GitHub 저장소의 **Settings → Pages**에서 배포할 브랜치와 루트 폴더를 선택하면 됩니다. 사이트 파일은 저장소 루트에 있으며 별도의 빌드 설정은 필요하지 않습니다.
 
+## 자동 품질검사
+
+Pull Request와 `main` 브랜치 push 때 GitHub Actions가 자동으로 실행됩니다. JavaScript 문법, HTML 핵심 설정, XML 문법, 문의 이메일, 로컬 파일 경로를 검사하며, 실패 원인은 Pull Request의 **Checks** 또는 저장소의 **Actions** 탭에서 확인할 수 있습니다. 별도의 API 키나 외부 서비스는 사용하지 않습니다.
+
 ## 파일 구성
 
 - `index.html`: 페이지 구조, 콘텐츠, 검색·SNS 공유 메타데이터
