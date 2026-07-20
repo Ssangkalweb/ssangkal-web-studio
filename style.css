@@ -179,6 +179,11 @@ h2 { margin: 0; color: var(--navy); font-size: clamp(34px, 4vw, 48px); line-heig
 .tech-tags { display: flex; flex-wrap: wrap; gap: 7px; margin: auto 0 0; padding: 20px 0 0; border-top: 1px solid var(--border); list-style: none; }
 .portfolio-details + .tech-tags { margin-top: 24px; }
 .tech-tags li { padding: 5px 9px; color: var(--text); background: var(--off-white); border: 1px solid var(--border); border-radius: 6px; font-size: 13px; font-weight: 700; line-height: 1.4; }
+.portfolio-demo { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; }
+.demo-status { color: var(--blue); font-size: 11px; font-weight: 800; line-height: 1.2; letter-spacing: .12em; }
+.demo-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; max-width: 100%; padding: 9px 16px; color: #ffffff; background: var(--blue); border: 1px solid var(--blue); border-radius: 8px; font-size: 14px; font-weight: 800; line-height: 1.4; word-break: keep-all; transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.demo-link:hover { background: #245fda; border-color: #245fda; }
+.demo-link:focus-visible { outline-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-soft); }
 
 .contact { padding-top: 90px; }
 .contact-box { display: flex; align-items: center; justify-content: space-between; gap: 50px; padding: 58px 65px; color: var(--white); background: var(--navy); border-radius: 20px; }
@@ -215,6 +220,8 @@ html[data-theme="dark"] .button-secondary { color: #ffffff; }
 html[data-theme="dark"] .theme-icon::after { background: #050c18; }
 html[data-theme="dark"] .site-preview { border-color: #3a4c68; }
 html[data-theme="dark"] .sample-badge { color: #c9dcff; background: #19335d; border-color: #31588e; }
+html[data-theme="dark"] .demo-link { color: #071a35; background: var(--blue); border-color: var(--blue); }
+html[data-theme="dark"] .demo-link:hover { background: #9fc0ff; border-color: #9fc0ff; }
 
 @media (max-width: 960px) {
   html.menu-open, html.menu-open body { overflow: hidden; }
